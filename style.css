@@ -1,0 +1,339 @@
+/*////////////////////////////////////////////////////////////////////início do reset-CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, p,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+  font-family: 'Segoe UI';
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*////////////////////////////////////////////////////////////////// fim do reset CSS */
+
+body {
+  min-height: 100vh;
+  background: #123456;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  font-family: 'Segoe UI';
+  background: #FFFFFF;
+}
+
+.headerBurguerIcon {
+  display: none;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.headerLogo {
+  width: 60px;
+  object-fit: scale-down;
+  margin: 0 20px;
+}
+
+.headerTitle {
+  font-size: 28px;
+  font-weight: 500;
+  color:#142850;
+}
+
+.headerItem {
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  color:#142850;
+  text-decoration: none;
+}
+
+.headerBurguerMenu {
+  scale: 1 0;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  color:#142850;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.main{
+  color: white;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Segoe UI';
+}
+
+.mainImage {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.introDiv {
+  background-image: url('./src/img/domqueshot-wallpaper-numb.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-family: 'Segoe UI';
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introTransition{
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(rgba(0, 0, 0, 0), #123456);
+}
+
+.WhatWeDoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Segoe UI';
+  width: 100%;
+}
+
+.WhatWeDoIntro{
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.WhatWeDoTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.WhatWeDoText {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ThingsWeDo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ThingWeDo {
+  margin: 10px;
+  width: 250px;
+  min-height: 25vw;
+  background: radial-gradient(#456be6, #223472);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 10px 0;
+}
+
+.ThingWeDoImg {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.ThingWeDoTitle{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 4px 10px 8px 10px;
+  margin-top: 8px;
+}
+
+.ThingWeDoText {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: justify;
+}
+
+.ThingWeDoButton{
+  color: white;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(180deg, #800080 0%, rgba(255, 255, 255, 0));
+  background-color: purple;
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+  font-size: 17px;
+}
+
+.footer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.footerItem {
+  font-family: 'Segoe UI';
+  margin: 0;
+  padding: 2px;
+  font-size: 14px;
+  color:#888888;
+}
+
+.cookieBox {
+  scale: 0;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: white;
+  border-radius: 20px;
+  width: 400px;
+  padding: 20px;
+  color:#142850;
+  font-size: 18px;
+  font-family: 'Segoe UI';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cookieText {
+  width: 340px;
+  text-align: center;
+}
+
+.cookieButton {
+  margin: 10px 0 0 0;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background: #800080;
+}
+
+.cookieButtonAndLink {
+  display: flex;
+  align-items: center;
+}
+
+.cookieLink {
+  font-size: 16px;
+  margin: 8px;
+}
+
+.cookieShow {
+  scale: 1;
+}
+
+@media screen and (max-width: 680px) {
+
+  .headerLogo {
+    width: 40px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .headerTitle {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .headerBurguerIcon {
+    display: block;
+    width: 20px;
+    object-fit: scale-down;
+    margin: 20px;
+  }
+
+  .ThingWeDo {
+    width: 340px;
+  }
+
+  .cookieBox {
+    width: 90%;
+    right: 5%;
+  }
+}

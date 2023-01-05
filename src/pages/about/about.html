@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="shortcut icon"
+          href="../../img/logo.png"
+          type="image/x-icon"
+        />
+        <title>Chap0lin Solutions</title>
+        <link rel="stylesheet" href="../../../style.css" />
+        <link rel="stylesheet" href="./about.css" />
+    </head>
+    <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+      <script src="../../../main.js"></script>
+  
+      <div class="header">
+          <div class="headerLeft">
+            <img src="../../img/logo.png" class="headerLogo">
+            <p class="headerTitle">Chap0lin Solutions</p>
+          </div>
+          <div class="headerRight">
+            <a class="headerItem desktop" href="../../../index.html">Início</a>
+            <a class="headerItem desktop" href="../products/products.html">Produtos</a>
+            <a class="headerItem desktop" href="./about.html">Sobre</a>
+            <img class="headerBurguerIcon" onClick='toggleBurguerMenu()' src="../../img/icons/burguer-menu-icon.png" />
+          </div>
+      </div>
+      <div class='headerBurguerMenu'>
+        <a class="headerItem burguer" href="../../../index.html">Início</a>
+        <a class="headerItem burguer" href="../products/products.html">Produtos</a>
+        <a class="headerItem burguer" href="./about.html">Sobre</a>
+      </div>
+
+      <div>
+        <div class="aboutDiv">
+          <div class="aboutImageAndText">
+            <img class="aboutImg" src="../../img/about-us.png"/>
+            <div class="aboutText">
+              <p class="aboutTitle">Sobre</p>
+              <br>
+              <p>
+                  A Chap0lin Solutions é uma startup de criação e implementação
+                  de aplicações web fundada em 2022, em Brasília-DF, com o objetivo
+                  de revolucionar a indústria do entretenimento assistido por aplicativos.
+                  Composta por 5 funcionários em uma estrutura organizacional enxuta,
+                  usa as mais recentes linguagens de programação para criar o que há
+                  de melhor em produtos para universitários.
+              </p>
+              <br>
+              <p>
+                  Como acabou minha criatividade, vou botar um lorem ipsum qualquer aqui.
+                  Mas cabe lembrar que ele não deve estar em um site que pretende ser monetizado.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis velit
+                  vel purus pretium blandit. Donec accumsan sollicitudin ante, et tempor nulla
+                  congue in. Etiam eget eros tortor. Vestibulum sit amet lorem quis nisl ultricies
+                  condimentum. Praesent interdum turpis quam, ac porttitor risus dapibus nec.
+                  Aenean dapibus in nibh in imperdiet. Curabitur porttitor rhoncus libero ac
+                  accumsan. Cras sed tortor tincidunt, dictum sem et, sagittis quam.
+                  Donec tristique ultricies facilisis. Morbi imperdiet neque nec volutpat rutrum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="aboutTitle center">A Equipe</p>
+      <div class="aboutEmployees">
+        <div class="aboutEmployeeDiv">
+          <img class="aboutEmployeeImg" src="../../img/staff/carlos-rocha.JPG"/>
+          <p class="aboutEmployeeTitle">Carlos Rocha</p>
+          <p class="aboutEmployeePosition">CEO</p>
+          <p class="aboutEmployeePhrase">"a vida é uma festa e eu sou a Piñata"</p>
+        </div>
+        <div class="aboutEmployeeDiv">
+          <img class="aboutEmployeeImg" src="../../img/staff/carla-rocha.JPG"/>
+          <p class="aboutEmployeeTitle">Carla Rocha</p>
+          <p class="aboutEmployeePosition">Designer</p>
+          <p class="aboutEmployeePhrase">"a vida é uma festa e eu sou a Piñata"</p>
+        </div>
+        <div class="aboutEmployeeDiv">
+          <img class="aboutEmployeeImg" src="../../img/staff/luiza.JPG"/>
+          <p class="aboutEmployeeTitle">Luiza Monção</p>
+          <p class="aboutEmployeePosition">Dev</p>
+          <p class="aboutEmployeePhrase">"a vida é uma festa e eu sou a Piñata"</p>
+        </div>
+        <div class="aboutEmployeeDiv">
+          <img class="aboutEmployeeImg" src="../../img/staff/alex.JPG"/>
+          <p class="aboutEmployeeTitle">Alexander Paschoaletto</p>
+          <p class="aboutEmployeePosition">Dev</p>
+          <p class="aboutEmployeePhrase">"a vida é uma festa e eu sou a Piñata"</p>
+        </div>
+        <div class="aboutEmployeeDiv">
+          <img class="aboutEmployeeImg" src="../../img/staff/rafa-sinhoroto.JPG"/>
+          <p class="aboutEmployeeTitle">Rafaela Sinhoroto</p>
+          <p class="aboutEmployeePosition">Dev</p>
+          <p class="aboutEmployeePhrase">"a vida é uma festa e eu sou a Piñata"</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="footerItem">&copy; Copyright 2023 Chap0lin Solutions. Todos os direitos reservados.</p>
+        <a class="footerItem" href="../privacy/privacyPolicy.html">Política de privacidade</a>
+      </div>
+
+      <div class="cookieBox">
+        <p class="cookieText">
+          Nós usamos cookie para melhorar sua experiência em nosso site.
+        </p>
+        <div class="cookieButtonAndLink">
+          <button onClick='setCookiesConsent()' class="cookieButton">Aceito</button>
+          <a href="../privacy/privacyPolicy.html">
+            <p class="cookieLink">
+              Política de Privacidade
+            </p>
+          </a>
+        </div>
+      </div>
+    </body>
+</html>

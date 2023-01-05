@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="shortcut icon"
+          href="../../img/logo.png"
+          type="image/x-icon"
+        />
+        <title>Chap0lin Solutions</title>
+        <link rel="stylesheet" href="../../../style.css" />
+        <link rel="stylesheet" href="./products.css"/>
+    </head>
+    <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+      <script src="../../../main.js"></script>
+  
+      <div class="header">
+          <div class="headerLeft">
+            <img src="../../img/logo.png" class="headerLogo">
+            <p class="headerTitle">Chap0lin Solutions</p>
+          </div>
+          <div class="headerRight">
+            <a class="headerItem desktop" href="../../../index.html">Início</a>
+            <a class="headerItem desktop" href="./products.html">Produtos</a>
+            <a class="headerItem desktop" href="../about/about.html">Sobre</a>
+            <img class="headerBurguerIcon" onClick='toggleBurguerMenu()' src="../../img/icons/burguer-menu-icon.png" />
+          </div>
+      </div>
+      <div class='headerBurguerMenu'>
+        <a class="headerItem burguer" href="../../../index.html">Início</a>
+        <a class="headerItem burguer" href="./products.html">Produtos</a>
+        <a class="headerItem burguer" href="../about/about.html">Sobre</a>
+      </div>
+
+      <div class="productsDiv">
+        <div class="product">
+          <img class="productImg" src="../../img/products/toolbelt.jpg"/>
+          <p class="productTitle">ToolBelt</p>
+          <p class="productText">
+            Uma página-ferramenta gratuita com o propósito de oferecer
+            várias utilidades em um só lugar, como pesquisa direta no Google
+            e Youtube, conversor monetário, quadro de rascunhos e até um
+            pequeno jogo de dados.</p>
+          <a href="https://chap0lin.github.io/ToolBelt"><button class="productButton">Acessar</button></a>
+          <div class="productRecommendation">
+            <p class="recommendationText">Otimizado para:</p>
+            <img class="recommendationIcon" src="../../img/icons/laptop.png"/>          
+          </div>
+          </div>
+        <div class="product">
+          <img class="productImg" src="../../img/products/domqueshot.jpg"/>
+          <p class="productTitle">Dom Que Shot!</p>
+          <p class="productText">
+            Um drinking game completo, com uma coletânea de minijogos e
+            desafios para o grupo de amigos se divertirem em uma festa ou
+            na mesa de um bar. Os menores de 18 anos podem beber água ou
+            refri ao invés de álcool. Se beber não dirija.
+          </p>
+          <a href="https://domqueshot.com"><button class="productButton">Jogar</button></a>
+          <div class="productRecommendation">
+            <p class="recommendationText">Otimizado para:</p>
+            <img class="recommendationIcon" src="../../img/icons/cellphone.png"/>          
+          </div> 
+        </div>
+        <div class="product">
+          <img class="productImg" src="../../img/products/match3.jpg"/>
+          <p class="productTitle">Match 3</p>
+          <p class="productText">
+            O clássico jogo Match 3, mas totalmente em português (também disponível em inglês)
+            e com a mecânica de jogo alterada para permitir movimento irrestrito dos blocos.
+            Disponível para Windows.
+          </p>
+          <a href="./products.html"><button class="productButton">Baixar</button></a>
+          <div class="productRecommendation">
+            <p class="recommendationText">Disponível para:</p>
+            <img class="recommendationIcon" src="../../img/icons/windows.png"/>          
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="footerItem">&copy; Copyright 2023 Chap0lin Solutions. Todos os direitos reservados.</p>
+        <a class="footerItem" href="../privacy/privacyPolicy.html">Política de privacidade</a>
+      </div>
+
+      <div class="cookieBox">
+        <p class="cookieText">
+          Nós usamos cookie para melhorar sua experiência em nosso site.
+        </p>
+        <div class="cookieButtonAndLink">
+          <button onClick='setCookiesConsent()' class="cookieButton">Aceito</button>
+          <a href="../privacy/privacyPolicy.html">
+            <p class="cookieLink">
+              Política de Privacidade
+            </p>
+          </a>
+        </div>
+      </div>
+    </body>
+</html>

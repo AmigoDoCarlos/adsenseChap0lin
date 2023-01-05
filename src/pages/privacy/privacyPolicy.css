@@ -1,0 +1,35 @@
+
+.privacyTerms {
+    display: flex;
+    justify-content: center;
+}
+
+.privacyDiv {
+    width: 100vw;
+    max-width: 1000px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.privacyTitle{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+}
+
+.privacySubtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.privacySubSubtitle {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}

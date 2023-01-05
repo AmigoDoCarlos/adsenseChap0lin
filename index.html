@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/logo.png"
+      type="image/x-icon"
+    />
+    <title>Chap0lin Solutions</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="./main.js"></script>
+    
+    <div class="introDiv">
+      <div class="header">
+        <div class="headerLeft">
+          <img src="./src/img/logo.png" class="headerLogo">
+          <p class="headerTitle">Chap0lin Solutions</p>
+        </div>
+        <div class="headerRight">
+          <a class="headerItem desktop" href="./index.html">Início</a>
+          <a class="headerItem desktop" href="./src/pages/products/products.html">Produtos</a>
+          <a class="headerItem desktop" href="./src/pages/about/about.html">Sobre</a>
+          <img class="headerBurguerIcon" onClick='toggleBurguerMenu()' src="./src/img/icons/burguer-menu-icon.png" />
+        </div>
+      </div>
+      <div class='headerBurguerMenu'>
+        <a class="headerItem burguer" href="./index.html">Início</a>
+        <a class="headerItem burguer" href="./src/pages/products/products.html">Produtos</a>
+        <a class="headerItem burguer" href="./src/pages/about/about.html">Sobre</a>
+      </div>
+      <p class="IntroTitle">Não contavam com a nossa astúcia</p>
+      <div class="introTransition"></div>
+    </div>
+
+    <div class="WhatWeDoDiv">
+      <div class="WhatWeDoIntro">
+        <div class="WhatWeDoCover">
+          <p class="WhatWeDoTitle">Seja muito bem vindo(a) à Chap0lin!</p>
+          <p class="WhatWeDoText">Aqui você encontra uma equipe capacitada e pronta para tornar seu aplicativo realidade.</p>
+        </div>
+      </div>
+      <div class="ThingsWeDo">
+        <div class="ThingWeDo">
+          <img src="./src/img/programming.jpg" class="ThingWeDoImg"/>
+          <p class="ThingWeDoTitle">
+            Typescript, React, HTML, CSS e Brainfuck
+          </p>
+          <p class="ThingWeDoText">
+            Nós trabalhamos com as linguagens mais usadas no mercado para aplicações web, e estamos prontos para o que você precisar. A menos que seja um abraço.
+          </p>
+          <a href="./src/pages/products/products.html">
+            <button class="ThingWeDoButton">Nosso portfolio</button>
+          </a>
+        </div>
+        <div class="ThingWeDo">
+          <img src="./src/img/responsive.jpg" class="ThingWeDoImg"/>
+          <p class="ThingWeDoTitle">
+            Responsividade e Multiplataforma
+          </p>
+          <p class="ThingWeDoText">
+            Todos os aplicativos e sites que desenvolvemos são responsivos e rodam em qualquer aparelho com suporte a navegadores. Menos este.
+          </p>
+        </div>
+        <div class="ThingWeDo">
+          <img src="./src/img/team.jpg" class="ThingWeDoImg"/>
+          <p class="ThingWeDoTitle">
+            Movidos a desafios, zoera e (muito) café
+          </p>
+          <p class="ThingWeDoText">
+            A maioria da equipe começou sem saber quase nada de desenvolvimento web, e veja só onde chegamos: a lugar nenhum.
+          </p>
+          <a href="./src/pages/about/about.html">
+            <button class="ThingWeDoButton">Conheça a equipe</button>
+          </a>
+        </div>
+      </div>
+    </div>  
+    <div class="footer">
+      <p class="footerItem">&copy; Copyright 2023 Chap0lin Solutions. Todos os direitos reservados.</p>
+      <a class="footerItem" href="./src/pages/privacy/privacyPolicy.html">Política de privacidade</a>
+    </div>
+    
+    <div class="cookieBox">
+      <p class="cookieText">
+        Nós usamos cookie para melhorar sua experiência em nosso site.
+      </p>
+      <div class="cookieButtonAndLink">
+        <button onClick='setCookiesConsent()' class="cookieButton">Aceito</button>
+        <a href="./src/pages/privacy/privacyPolicy.html">
+          <p class="cookieLink">
+            Política de Privacidade
+          </p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

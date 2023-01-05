@@ -1,0 +1,100 @@
+.aboutImg {
+    max-width: 80vw;
+    height: 500px;
+    padding: 20px;
+    object-fit: scale-down;
+    border-radius: 50px;
+}
+
+.aboutDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutImageAndText {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTitle{
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI';
+}
+
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutText {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.aboutEmployees {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.aboutEmployeeDiv {
+    font-family: 'Segoe UI';
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 250px;
+    border-radius: 20px;
+    background: linear-gradient(#31bedc, #456be6);
+}
+
+.aboutEmployeeImg {
+    width: 220px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    border: 3px solid #ffd141;
+}
+
+.aboutEmployeeTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+
+.aboutEmployeePosition {
+    color: white;
+}
+
+.aboutEmployeePhrase {
+    margin: 10px 0;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    .aboutTitle {
+        text-align: center;
+    }
+
+    .aboutImg {
+        max-width: 100vw;
+        object-fit: cover;
+    }
+  }
